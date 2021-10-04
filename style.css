@@ -18,6 +18,14 @@ body{
 	overflow:hidden;
 }
 
+/* Allows footer to remain at the bottom of the screen */
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #main-header{
 	background-color:maroon;
 	color:#fff;
@@ -82,14 +90,6 @@ body{
 	text-align: center;
 	padding:20px;
 	margin-top:40px;
-}
-
-/* Allows footer to remain at the bottom of the screen */
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 @media(max-width:600px){
